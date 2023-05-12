@@ -4,8 +4,8 @@
 import os
 import httpx
 
-CUTECLOUD_EMAIL = os.getenv('PORTABLEAPPK_USER')
-CUTECLOUD_PASSWD = os.getenv('PORTABLEAPPK_PASSWD')
+CUTECLOUD_EMAIL = os.getenv('CUTECLOUD_EMAIL')
+CUTECLOUD_PASSWD = os.getenv('CUTECLOUD_PASSWD')
 
 base_url = "https://www.cutecloud.net"
 
